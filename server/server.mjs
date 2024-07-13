@@ -4,7 +4,7 @@ import { join } from "path";
 const app = express();
 const port = 3000;
 const ___dirname = process.cwd();
-const path = join(___dirname,"view", "ejs", "template", "v1", "header","header.ejs");
+const path = join(___dirname,"view", "ejs", "template", "v1", "index.ejs");
 
 app.set("view engine", "ejs");
 
