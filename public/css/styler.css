@@ -1,3 +1,4 @@
+/* panel */
 .content{
     width: 500px ;
     height: 500px;
@@ -5,9 +6,12 @@
     margin-left: 450px; 
 }
 
+/* name page*/
 .name-page {
   padding-left: 20px ;
 }
+
+/* tools of panel */
 
 .tools{
     border: solid black 1px;
@@ -18,9 +22,32 @@
 }
 
 
+/* fragment code */
+.fragment-code-console{
+  margin: 10px 0 0 10px;
+}
+
+.fragment-code-const{
+    margin: 10px 0 0 10px;
+}
+
+
+/* field text */
+.field text{
+    height:15px;
+    border: solid black 1px;
+}
+
+
+/* footer page */
+
 .pie {
     border: solid black 1px;
     margin-top: 60px;
     height: 45px;
 }
 
+/* icons */
+.icons{
+    margin: 10px 0 0 10px;
+}
