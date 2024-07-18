@@ -13,31 +13,33 @@
   </head>
   <body>
 
-    <!-- header of page-->
 
+    <!-- header of page-->
     <header class="name-page">
       <h1>paint script</h1>
     </header>
 
-
     <!-- panel where he run fragment code-->
     <main class="content"></main>
 
-
-
-   <!-- tools of panel -->
+    <!-- tools of panel -->
     <nav class="tools">
-      <div class="fragment-code-console">
-        <p>console</p>
-        <textarea name="text" class="field text"></textarea>
+      <div class="fragment-code-const" id="fragment-code-const">
+        <p>
+          const
+          <input type="text" />
+          =
+          <input type="text" />
+        </p>
       </div>
 
-      <div class="fragment-code-const">
-        <p>const</p>
-        <textarea name="text" class="field text"></textarea>
+      <div class="fragment-code-console" id="fragment-code-console">
+        <p>
+          console
+          <input type="text" />
+        </p>
       </div>
     </nav>
-
 
     <!-- pie of page -->
     <footer class="pie">
@@ -54,6 +56,6 @@
       </section>
     </footer>
 
-
+    <script src="../public/js/funcion_part.mjs"></script>
   </body>
 </html>
