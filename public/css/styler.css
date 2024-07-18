@@ -1,53 +1,54 @@
 /* panel */
-.content{
-    width: 500px ;
-    height: 500px;
-    border: solid black 1px;
-    margin-left: 450px; 
+.content {
+  width: 500px;
+  height: 500px;
+  border: solid black 1px;
+  margin-left: 450px;
 }
 
 /* name page*/
 .name-page {
-  padding-left: 20px ;
+  padding-left: 20px;
 }
 
 /* tools of panel */
 
-.tools{
-    border: solid black 1px;
-    margin: 20px 0 0 450px;
-    width: 500px ;
-    height: 50px;
-
+.tools {
+  border: solid black 1px;
+  margin: 20px 0 0 450px;
+  width: 500px;
+  height: 50px;
 }
-
 
 /* fragment code */
-.fragment-code-console{
+.fragment-code-console {
   margin: 10px 0 0 10px;
+  border: solid black 1px;
+  width: 125px;
+  height: 50px;
 }
 
-.fragment-code-const{
-    margin: 10px 0 0 10px;
+.fragment-code-const {
+  margin: 10px 0 0 10px;
+  border: solid black 1px;
+  width: 100px;
+  height: 50px;
 }
 
-
-/* field text */
-.field text{
-    height:15px;
-    border: solid black 1px;
+.fild-text {
+    width: 25px;
 }
 
 
 /* footer page */
 
 .pie {
-    border: solid black 1px;
-    margin-top: 60px;
-    height: 45px;
+  border: solid black 1px;
+  margin-top: 60px;
+  height: 45px;
 }
 
 /* icons */
-.icons{
-    margin: 10px 0 0 10px;
+.icons {
+  margin: 10px 0 0 10px;
 }
